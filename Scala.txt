@@ -1,0 +1,17 @@
+spark-shell
+
+object myObject{
+	def main(args: Array[String]) {
+		var n1=10;
+		var n2=20;
+		if(n1>n2){
+			println(n1+" is greater");
+		}
+		else
+		{
+			println(n2+" is greater");
+		}		
+	}
+}
+
+myObject.main(Array())
